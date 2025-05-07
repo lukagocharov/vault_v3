@@ -818,12 +818,12 @@ img.new-logo-themed {
 
     width: 175px;
 }
-.theme_light img.new-logo-themed {
+/* .theme_light img.new-logo-themed {
     content: url(images/logo.svg);
   }
 .theme_dark img.new-logo-themed {
     content: url(images/logo-white.svg);
-  }
+  } */
 .tw-sr-only {
     position: absolute;
     width: 1px;

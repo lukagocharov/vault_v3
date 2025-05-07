@@ -76,7 +76,7 @@ async fn main() -> Result<(), Error> {
 
     check_data_folder().await;
     auth::initialize_keys().unwrap_or_else(|e| {
-        error!("Error creating private key '{}'\n{e:?}\nExiting Vaultwarden!", CONFIG.private_rsa_key());
+        error!("Error creating private key '{}'\n{e:?}\nExiting Password Manager!", CONFIG.private_rsa_key());
         exit(1);
     });
     check_web_vault();
@@ -95,10 +95,10 @@ async fn main() -> Result<(), Error> {
 }
 
 const HELP: &str = "\
-Alternative implementation of the Bitwarden server API written in Rust
+Implementation of the Password Manager server API written in Rust
 
 USAGE:
-    vaultwarden [FLAGS|COMMAND]
+Password Manager [FLAGS|COMMAND]
 
 FLAGS:
     -h, --help       Prints help information
@@ -122,13 +122,13 @@ async fn parse_args() {
     let version = VERSION.unwrap_or("(Version info from Git not present)");
 
     if pargs.contains(["-h", "--help"]) {
-        println!("Vaultwarden {version}");
+        println!("Password Manager {version}");
         print!("{HELP}");
         exit(0);
     } else if pargs.contains(["-v", "--version"]) {
         config::SKIP_CONFIG_VALIDATION.store(true, Ordering::Relaxed);
         let web_vault_version = util::get_web_vault_version();
-        println!("Vaultwarden {version}");
+        println!("Password Manager {version}");
         println!("Web-Vault {web_vault_version}");
         exit(0);
     }
@@ -224,26 +224,23 @@ fn launch_info() {
     println!(
         "\
         /--------------------------------------------------------------------\\\n\
-        |                        Starting Vaultwarden                        |"
+        |                        Starting Password Manager                        |"
     );
 
     if let Some(version) = VERSION {
         println!("|{:^68}|", format!("Version {version}"));
     }
 
-    println!(
-        "\
-        |--------------------------------------------------------------------|\n\
-        | This is an *unofficial* Bitwarden implementation, DO NOT use the   |\n\
-        | official channels to report bugs/features, regardless of client.   |\n\
-        | Send usage/configuration questions or feature requests to:         |\n\
-        |   https://github.com/dani-garcia/vaultwarden/discussions or        |\n\
-        |   https://vaultwarden.discourse.group/                             |\n\
-        | Report suspected bugs/issues in the software itself at:            |\n\
-        |   https://github.com/dani-garcia/vaultwarden/issues/new            |\n\
-        \\--------------------------------------------------------------------/\n"
-    );
-}
+//     println!(
+//         "\
+//         |--------------------------------------------------------------------|\n\
+//         | This is an *unofficial* Bitwarden implementation, DO NOT use the   |\n\
+//         | official channels to report bugs/features, regardless of client.   |\n\
+//         | Send usage/configuration questions or feature requests to:         |\n\
+//         | Report suspected bugs/issues in the software itself at:            |\n\
+//         \\--------------------------------------------------------------------/\n"
+//     );
+ }
 
 fn init_logging() -> Result<log::LevelFilter, Error> {
     let levels = log::LevelFilter::iter().map(|lvl| lvl.as_str().to_lowercase()).collect::<Vec<String>>().join("|");
