@@ -1399,8 +1399,8 @@
     "message": "認証アプリ"
   },
   "authenticatorAppDescV2": {
-    "message": "Bitwarden Authenticator のような認証アプリによって生成されたコードを入力してください。",
-    "description": "'Bitwarden Authenticator' is a product name and should not be translated."
+    "message": "Password Manager Authenticator のような認証アプリによって生成されたコードを入力してください。",
+    "description": "'Password Manager Authenticator' is a product name and should not be translated."
   },
   "yubiKeyTitleV2": {
     "message": "Yubico OTP セキュリティキー"
@@ -2153,7 +2153,7 @@
     "message": "bitwarden.com に進みますか？"
   },
   "twoStepContinueToBitwardenUrlDesc": {
-    "message": "Bitwarden Authenticator では認証キーを保存し、2段階認証フロー用の TOTP コードを生成できます。詳細は bitwarden.com ウェブサイトをご覧ください。"
+    "message": "Password Manager Authenticator では認証キーを保存し、2段階認証フロー用の TOTP コードを生成できます。詳細は bitwarden.com ウェブサイトをご覧ください。"
   },
   "twoStepAuthenticatorScanCodeV2": {
     "message": "以下の QR コードを認証アプリでスキャンするか、キーを入力してください。"

@@ -1117,7 +1117,7 @@
     "message": "Είσοδος"
   },
   "logInToBitwarden": {
-    "message": "Log in to Bitwarden"
+    "message": "Login in to Password Manager"
   },
   "authenticationTimeout": {
     "message": "Authentication timeout"
@@ -1399,8 +1399,8 @@
     "message": "Εφαρμογή Επαλήθευσης"
   },
   "authenticatorAppDescV2": {
-    "message": "Εισαγάγετε έναν κωδικό που δημιουργήθηκε από μια εφαρμογή ελέγχου ταυτότητας, όπως το Bitwarden Authenticator.",
-    "description": "'Bitwarden Authenticator' is a product name and should not be translated."
+    "message": "Εισαγάγετε έναν κωδικό που δημιουργήθηκε από μια εφαρμογή ελέγχου ταυτότητας, όπως το Password Manager Authenticator.",
+    "description": "'Password Manager Authenticator' is a product name and should not be translated."
   },
   "yubiKeyTitleV2": {
     "message": "Κλειδί ασφαλείας YubiKey OTP"
@@ -2147,13 +2147,13 @@
     }
   },
   "continueToExternalUrlDesc": {
-    "message": "You are leaving Bitwarden and launching an external website in a new window."
+    "message": "You are leaving Password Manager and launching an external website in a new window."
   },
   "twoStepContinueToBitwardenUrlTitle": {
     "message": "Συνέχεια στο bitwarden.com;"
   },
   "twoStepContinueToBitwardenUrlDesc": {
-    "message": "Bitwarden Authenticator allows you to store authenticator keys and generate TOTP codes for 2-step verification flows. Learn more on the bitwarden.com website."
+    "message": "Password Manager Authenticator allows you to store authenticator keys and generate TOTP codes for 2-step verification flows. Learn more on the bitwarden.com website."
   },
   "twoStepAuthenticatorScanCodeV2": {
     "message": "Scan the QR code below with your authenticator app or enter the key."
@@ -9204,7 +9204,7 @@
     "message": "Συνεχίστε τη ρύθμιση της δωρεάν δοκιμής σας στο Bitwarden"
   },
   "continueSettingUpFreeTrialPasswordManager": {
-    "message": "Συνεχίστε τη ρύθμιση της δωρεάν δοκιμής σας στο Bitwarden Password Manager"
+    "message": "Συνεχίστε τη ρύθμιση της δωρεάν δοκιμής σας στο Password Manager"
   },
   "continueSettingUpFreeTrialSecretsManager": {
     "message": "Συνεχίστε τη ρύθμιση της δωρεάν δοκιμής σας στο Bitwarden Secrets Manager"

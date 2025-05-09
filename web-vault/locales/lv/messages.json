@@ -1399,8 +1399,8 @@
     "message": "Autentificētāja lietotne"
   },
   "authenticatorAppDescV2": {
-    "message": "Jāievada autentificētāja lietotnes, piemēram, Bitwarden Authenticator, izveidots kods.",
-    "description": "'Bitwarden Authenticator' is a product name and should not be translated."
+    "message": "Jāievada autentificētāja lietotnes, piemēram, Password Manager Authenticator, izveidots kods.",
+    "description": "'Password Manager Authenticator' is a product name and should not be translated."
   },
   "yubiKeyTitleV2": {
     "message": "Yubico OTP drošības atslēga"

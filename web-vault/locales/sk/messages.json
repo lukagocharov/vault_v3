@@ -1399,8 +1399,8 @@
     "message": "Overovacia aplikácia"
   },
   "authenticatorAppDescV2": {
-    "message": "Zadajte kód vygenerovaný overovacou aplikáciou akou je napríklad Bitwarden Authenticator.",
-    "description": "'Bitwarden Authenticator' is a product name and should not be translated."
+    "message": "Zadajte kód vygenerovaný overovacou aplikáciou akou je napríklad Password Manager Authenticator.",
+    "description": "'Password Manager Authenticator' is a product name and should not be translated."
   },
   "yubiKeyTitleV2": {
     "message": "Bezpečnostný kľúč Yubico OTP"
@@ -2153,7 +2153,7 @@
     "message": "Pokračovať na bitwarden.com?"
   },
   "twoStepContinueToBitwardenUrlDesc": {
-    "message": "Bitwarden Authenticator umožňuje uložiť overovacie kľúče a generovať kódy TOTP pre dvojstupňoveé overovanie. Viac informácií nájdete na webovej stránke bitwarden.com."
+    "message": "Password Manager Authenticator umožňuje uložiť overovacie kľúče a generovať kódy TOTP pre dvojstupňoveé overovanie. Viac informácií nájdete na webovej stránke bitwarden.com."
   },
   "twoStepAuthenticatorScanCodeV2": {
     "message": "S vašou overovacou aplikáciou skenujte QR kód nižšie, alebo ručne zadajte kľúč."

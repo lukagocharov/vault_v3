@@ -1399,8 +1399,8 @@
     "message": "Програма автентифікації"
   },
   "authenticatorAppDescV2": {
-    "message": "Введіть код, згенерований програмою для автентифікації, як-от Bitwarden Authenticator.",
-    "description": "'Bitwarden Authenticator' is a product name and should not be translated."
+    "message": "Введіть код, згенерований програмою для автентифікації, як-от Password Manager Authenticator.",
+    "description": "'Password Manager Authenticator' is a product name and should not be translated."
   },
   "yubiKeyTitleV2": {
     "message": "Ключ безпеки Yubico OTP"
@@ -2153,7 +2153,7 @@
     "message": "Продовжити на bitwarden.com?"
   },
   "twoStepContinueToBitwardenUrlDesc": {
-    "message": "Bitwarden Authenticator дозволяє зберігати ключі авторизації та генерувати одноразові коди TOTP для двоетапної перевірки. Дізнайтеся більше про це на вебсайті bitwarden.com."
+    "message": "Password Manager Authenticator дозволяє зберігати ключі авторизації та генерувати одноразові коди TOTP для двоетапної перевірки. Дізнайтеся більше про це на вебсайті bitwarden.com."
   },
   "twoStepAuthenticatorScanCodeV2": {
     "message": "Скануйте зазначений нижче QR-код за допомогою програми для автентифікації або введіть ключ."

@@ -1399,8 +1399,8 @@
     "message": "Приложение-аутентификатор"
   },
   "authenticatorAppDescV2": {
-    "message": "Введите код, сгенерированный приложением-аутентификатором, например Bitwarden Authenticator.",
-    "description": "'Bitwarden Authenticator' is a product name and should not be translated."
+    "message": "Введите код, сгенерированный приложением-аутентификатором, например Password Manager Authenticator.",
+    "description": "'Password Manager Authenticator' is a product name and should not be translated."
   },
   "yubiKeyTitleV2": {
     "message": "Ключ безопасности Yubico OTP"
@@ -2153,7 +2153,7 @@
     "message": "Продолжить на bitwarden.com?"
   },
   "twoStepContinueToBitwardenUrlDesc": {
-    "message": "Bitwarden Authenticator позволяет хранить ключи и генерировать коды TOTP для двухэтапной аутентификации. Узнайте больше на bitwarden.com."
+    "message": "Password Manager Authenticator позволяет хранить ключи и генерировать коды TOTP для двухэтапной аутентификации. Узнайте больше на bitwarden.com."
   },
   "twoStepAuthenticatorScanCodeV2": {
     "message": "Сосканируйте приведенный ниже QR-код с помощью приложения-аутентификатора или введите ключ."
@@ -9204,7 +9204,7 @@
     "message": "Продолжить настройку бесплатной пробной версии Bitwarden"
   },
   "continueSettingUpFreeTrialPasswordManager": {
-    "message": "Продолжить настройку бесплатной пробной версии Bitwarden Password Manager"
+    "message": "Продолжить настройку бесплатной пробной версии Password Manager"
   },
   "continueSettingUpFreeTrialSecretsManager": {
     "message": "Продолжить настройку бесплатной пробной версии менеджера секретов Bitwarden"

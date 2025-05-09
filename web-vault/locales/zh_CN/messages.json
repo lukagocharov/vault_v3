@@ -1400,7 +1400,7 @@
   },
   "authenticatorAppDescV2": {
     "message": "输入验证器 App（例如 Bitwarden 验证器）生成的代码。",
-    "description": "'Bitwarden Authenticator' is a product name and should not be translated."
+    "description": "'Password Manager Authenticator' is a product name and should not be translated."
   },
   "yubiKeyTitleV2": {
     "message": "Yubico OTP 安全钥匙"

@@ -1399,8 +1399,8 @@
     "message": "Godkendelses-app"
   },
   "authenticatorAppDescV2": {
-    "message": "Angiv en kode genereret af en godkendelses-app såsom Bitwarden Authenticator.",
-    "description": "'Bitwarden Authenticator' is a product name and should not be translated."
+    "message": "Angiv en kode genereret af en godkendelses-app såsom Password Manager Authenticator.",
+    "description": "'Password Manager Authenticator' is a product name and should not be translated."
   },
   "yubiKeyTitleV2": {
     "message": "Yubico OTP-sikkerhedsnøgle"
@@ -2153,7 +2153,7 @@
     "message": "Fortsæt til bitwarden.com?"
   },
   "twoStepContinueToBitwardenUrlDesc": {
-    "message": "Bitwarden Authenticator muliggør at gemme godkendelsesnøgler og generere TOTP-koder til totrinsbekræftelsesstrømme. Læs mere på bitwarden.com-webstedet."
+    "message": "Password Manager Authenticator muliggør at gemme godkendelsesnøgler og generere TOTP-koder til totrinsbekræftelsesstrømme. Læs mere på bitwarden.com-webstedet."
   },
   "twoStepAuthenticatorScanCodeV2": {
     "message": "Skan QR-koden nedenfor med godkendelses-appen eller angiv nøglen."
@@ -2364,7 +2364,7 @@
     "message": "Inaktivt totrins-login"
   },
   "inactive2faReportDesc": {
-    "message": "Med totrins-login føjer man et beskyttelseslag til sine konti. Opsæt totrins-login vha. Bitwarden Authenticator for disse konti, eller brug en alternativ metode."
+    "message": "Med totrins-login føjer man et beskyttelseslag til sine konti. Opsæt totrins-login vha. Password Manager Authenticator for disse konti, eller brug en alternativ metode."
   },
   "inactive2faFound": {
     "message": "Logins uden totrins-login fundet"
@@ -9204,7 +9204,7 @@
     "message": "Fortsæt opsætningen af den gratis Bitwarden-prøveperiode"
   },
   "continueSettingUpFreeTrialPasswordManager": {
-    "message": "Fortsæt opsætningen af den gratis Bitwarden Password Manager-prøveperiode"
+    "message": "Fortsæt opsætningen af den gratis Password Manager-prøveperiode"
   },
   "continueSettingUpFreeTrialSecretsManager": {
     "message": "Fortsæt opsætningen af den gratis Bitwarden Secrets Manager-prøveperiode"

@@ -1400,7 +1400,7 @@
   },
   "authenticatorAppDescV2": {
     "message": "Въведете код създаден чрез приложение за удостоверяване, като например това на Битуорден.",
-    "description": "'Bitwarden Authenticator' is a product name and should not be translated."
+    "description": "'Password Manager Authenticator' is a product name and should not be translated."
   },
   "yubiKeyTitleV2": {
     "message": "Ключ за сигурност YubiKey OTP"

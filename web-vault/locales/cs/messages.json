@@ -1400,7 +1400,7 @@
   },
   "authenticatorAppDescV2": {
     "message": "Zadejte kód vygenerovaný ověřovací aplikací, jako je Autentikátor Bitwarden.",
-    "description": "'Bitwarden Authenticator' is a product name and should not be translated."
+    "description": "'Password Manager Authenticator' is a product name and should not be translated."
   },
   "yubiKeyTitleV2": {
     "message": "Bezpečnostní klíč YubiKey OTP"

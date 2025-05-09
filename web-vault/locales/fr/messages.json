@@ -1399,8 +1399,8 @@
     "message": "Application d'authentification"
   },
   "authenticatorAppDescV2": {
-    "message": "Entrez un code généré par une application d'authentification comme Bitwarden Authenticator.",
-    "description": "'Bitwarden Authenticator' is a product name and should not be translated."
+    "message": "Entrez un code généré par une application d'authentification comme Password Manager Authenticator.",
+    "description": "'Password Manager Authenticator' is a product name and should not be translated."
   },
   "yubiKeyTitleV2": {
     "message": "Clé de sécurité OTP de Yubico"
@@ -2153,7 +2153,7 @@
     "message": "Continuer vers bitwarden.com?"
   },
   "twoStepContinueToBitwardenUrlDesc": {
-    "message": "Bitwarden Authenticator vous permet de stocker les clés d'authentification et de générer des codes TOTP pour les demande d'authentification en 2 étapes. Apprenez-en plus sur le site web bitwarden.com."
+    "message": "Password Manager Authenticator vous permet de stocker les clés d'authentification et de générer des codes TOTP pour les demande d'authentification en 2 étapes. Apprenez-en plus sur le site web bitwarden.com."
   },
   "twoStepAuthenticatorScanCodeV2": {
     "message": "Scannez le code QR ci-dessous avec votre application d'authentification ou saisissez la clé."

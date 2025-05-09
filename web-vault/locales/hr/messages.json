@@ -1399,8 +1399,8 @@
     "message": "Autentifikatorska aplikacija"
   },
   "authenticatorAppDescV2": {
-    "message": "Unesi kôd generiran autentifikatorskom aplikacijom kao npr. Bitwarden Authenticatorom.",
-    "description": "'Bitwarden Authenticator' is a product name and should not be translated."
+    "message": "Unesi kôd generiran autentifikatorskom aplikacijom kao npr. Password Manager Authenticatorom.",
+    "description": "'Password Manager Authenticator' is a product name and should not be translated."
   },
   "yubiKeyTitleV2": {
     "message": "Yubico OTP sigurnosni ključ"

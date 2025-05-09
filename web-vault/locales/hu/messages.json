@@ -1399,8 +1399,8 @@
     "message": "Hitelesítő alkalmazás"
   },
   "authenticatorAppDescV2": {
-    "message": "Adjunk meg egy hitelesítő alkalmazás, például a Bitwarden Authenticator által generált kódot.",
-    "description": "'Bitwarden Authenticator' is a product name and should not be translated."
+    "message": "Adjunk meg egy hitelesítő alkalmazás, például a Password Manager Authenticator által generált kódot.",
+    "description": "'Password Manager Authenticator' is a product name and should not be translated."
   },
   "yubiKeyTitleV2": {
     "message": "YubiKey OTP biztonsági kulcs"
@@ -2153,7 +2153,7 @@
     "message": "Folytatás a bitwarden.com webhelyen?"
   },
   "twoStepContinueToBitwardenUrlDesc": {
-    "message": "A Bitwarden Authenticator lehetővé teszi hitelesítő kulcsok tárolását és TOTP kódok generálását a kétlépcsős ellenőrzési folyamatokhoz. Tudjunk meg többet a bitwarden.com webhelyen."
+    "message": "A Password Manager Authenticator lehetővé teszi hitelesítő kulcsok tárolását és TOTP kódok generálását a kétlépcsős ellenőrzési folyamatokhoz. Tudjunk meg többet a bitwarden.com webhelyen."
   },
   "twoStepAuthenticatorScanCodeV2": {
     "message": "Olvassuk be az alábbi QR kódot a hitelesítő alkalmazással,vagy írjuk be a kulcsot."

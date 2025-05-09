@@ -1399,8 +1399,8 @@
     "message": "Todennussovellus"
   },
   "authenticatorAppDescV2": {
-    "message": "Syötä Bitwarden Authenticatorin kaltaisen todennusovelluksen luoma koodi.",
-    "description": "'Bitwarden Authenticator' is a product name and should not be translated."
+    "message": "Syötä Password Manager Authenticatorin kaltaisen todennusovelluksen luoma koodi.",
+    "description": "'Password Manager Authenticator' is a product name and should not be translated."
   },
   "yubiKeyTitleV2": {
     "message": "Yubico OTP -suojausavain"
@@ -2153,7 +2153,7 @@
     "message": "Avataanko bitwarden.com?"
   },
   "twoStepContinueToBitwardenUrlDesc": {
-    "message": "Bitwarden Authenticatorin avulla voit säilyttää todennusavaimet ja luoda TOTP-koodeja kaksivaiheista kirjautumista varten. Lue lisää bitwarden.com-sivustolta."
+    "message": "Password Manager Authenticatorin avulla voit säilyttää todennusavaimet ja luoda TOTP-koodeja kaksivaiheista kirjautumista varten. Lue lisää bitwarden.com-sivustolta."
   },
   "twoStepAuthenticatorScanCodeV2": {
     "message": "Skannaa alla oleva QR-koodi todennussovelluksellasi tai syötä avain itse."

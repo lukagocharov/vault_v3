@@ -1117,7 +1117,7 @@
     "message": "Giriş yap"
   },
   "logInToBitwarden": {
-    "message": "Log in to Bitwarden"
+    "message": "Login in to Password Manager"
   },
   "authenticationTimeout": {
     "message": "Authentication timeout"
@@ -1399,8 +1399,8 @@
     "message": "Kimlik doğrulama uygulaması"
   },
   "authenticatorAppDescV2": {
-    "message": "Kimlik doğrulama uygulamanızın (örn. Bitwarden Authenticator) ürettiği kodu girin.",
-    "description": "'Bitwarden Authenticator' is a product name and should not be translated."
+    "message": "Kimlik doğrulama uygulamanızın (örn. Password Manager Authenticator) ürettiği kodu girin.",
+    "description": "'Password Manager Authenticator' is a product name and should not be translated."
   },
   "yubiKeyTitleV2": {
     "message": "YubiKey OTP güvenlik anahtarı"
@@ -2153,7 +2153,7 @@
     "message": "bitwarden.com'a gitmek ister misiniz?"
   },
   "twoStepContinueToBitwardenUrlDesc": {
-    "message": "Bitwarden Authenticator size kimlik doğrulayıcı anahtarınızı saklama ve 2 aşamalı doğrulama akışları için TOTP anahtarı üretme imkanı sağlar. Daha fazlası için bitwarden.com sitesini ziyaret edin."
+    "message": "Password Manager Authenticator size kimlik doğrulayıcı anahtarınızı saklama ve 2 aşamalı doğrulama akışları için TOTP anahtarı üretme imkanı sağlar. Daha fazlası için bitwarden.com sitesini ziyaret edin."
   },
   "twoStepAuthenticatorScanCodeV2": {
     "message": "Aşağıdaki QR kodunu kimlik doğrulama uygulamanıza okutun veya anahtarı girin."
@@ -9204,7 +9204,7 @@
     "message": "Continue setting up your free trial of Bitwarden"
   },
   "continueSettingUpFreeTrialPasswordManager": {
-    "message": "Continue setting up your free trial of Bitwarden Password Manager"
+    "message": "Continue setting up your free trial of Password Manager"
   },
   "continueSettingUpFreeTrialSecretsManager": {
     "message": "Continue setting up your free trial of Bitwarden Secrets Manager"

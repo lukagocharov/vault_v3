@@ -1117,7 +1117,7 @@
     "message": "Zaloguj się"
   },
   "logInToBitwarden": {
-    "message": "Log in to Bitwarden"
+    "message": "Login in to Password Manager"
   },
   "authenticationTimeout": {
     "message": "Authentication timeout"
@@ -1399,8 +1399,8 @@
     "message": "Aplikacja uwierzytelniająca"
   },
   "authenticatorAppDescV2": {
-    "message": "Wprowadź kod wygenerowany przez aplikację uwierzytelniającą, jak Bitwarden Authenticator.",
-    "description": "'Bitwarden Authenticator' is a product name and should not be translated."
+    "message": "Wprowadź kod wygenerowany przez aplikację uwierzytelniającą, jak Password Manager Authenticator.",
+    "description": "'Password Manager Authenticator' is a product name and should not be translated."
   },
   "yubiKeyTitleV2": {
     "message": "Klucz bezpieczeństwa Yubico OTP"
@@ -2153,7 +2153,7 @@
     "message": "Kontynuować do bitwarden.com?"
   },
   "twoStepContinueToBitwardenUrlDesc": {
-    "message": "Bitwarden Authenticator pozwala na przechowywanie kluczy uwierzytelniających i generowanie kodów TOTP do dwuetapowego procesu weryfikacji. Dowiedz się więcej na stronie bitwarden.com."
+    "message": "Password Manager Authenticator pozwala na przechowywanie kluczy uwierzytelniających i generowanie kodów TOTP do dwuetapowego procesu weryfikacji. Dowiedz się więcej na stronie bitwarden.com."
   },
   "twoStepAuthenticatorScanCodeV2": {
     "message": "Zeskanuj poniższy kod QR za pomocą aplikacji uwierzytelniającej lub wprowadź klucz."

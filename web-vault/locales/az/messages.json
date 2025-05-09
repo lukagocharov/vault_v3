@@ -1399,8 +1399,8 @@
     "message": "Kimlik doğrulayıcı tətbiqi"
   },
   "authenticatorAppDescV2": {
-    "message": "Bitwarden Authenticator kimi bir kimlik doğrulama tətbiqi tərəfindən yaradılan kodu daxil edin.",
-    "description": "'Bitwarden Authenticator' is a product name and should not be translated."
+    "message": "Password Manager Authenticator kimi bir kimlik doğrulama tətbiqi tərəfindən yaradılan kodu daxil edin.",
+    "description": "'Password Manager Authenticator' is a product name and should not be translated."
   },
   "yubiKeyTitleV2": {
     "message": "Yubico OTP güvənlik açarı"
@@ -2153,7 +2153,7 @@
     "message": "bitwarden.com ilə davam edilsin?"
   },
   "twoStepContinueToBitwardenUrlDesc": {
-    "message": "Bitwarden Authenticator, kimlik doğrulama açarlarını saxlamağınıza və 2 addımlı doğrulama axınları üçün TOTP kodlarını yaratmağınıza imkan verir. Daha ətraflı bitwarden.com veb saytında öyrənə bilərsiniz."
+    "message": "Password Manager Authenticator, kimlik doğrulama açarlarını saxlamağınıza və 2 addımlı doğrulama axınları üçün TOTP kodlarını yaratmağınıza imkan verir. Daha ətraflı bitwarden.com veb saytında öyrənə bilərsiniz."
   },
   "twoStepAuthenticatorScanCodeV2": {
     "message": "Kimlik doğrulayıcı tətbiqinizlə aşağıdakı QR kodu skan edin və ya açarı daxil edin."
@@ -2364,7 +2364,7 @@
     "message": "Aktiv olmayan iki addımlı giriş"
   },
   "inactive2faReportDesc": {
-    "message": "İki addımlı giriş, hesablarınıza bir qoruma qatı əlavə edir. Bu hesablar üçün Bitwarden Authenticator-u istifadə edərək \"İki addımlı giriş\" özəlliyini qurun və ya alternativ bir üsul istifadə edin."
+    "message": "İki addımlı giriş, hesablarınıza bir qoruma qatı əlavə edir. Bu hesablar üçün Password Manager Authenticator-u istifadə edərək \"İki addımlı giriş\" özəlliyini qurun və ya alternativ bir üsul istifadə edin."
   },
   "inactive2faFound": {
     "message": "2FA olmayan hesablar tapıldı"

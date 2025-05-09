@@ -1399,8 +1399,8 @@
     "message": "Апликација Аутентификатор"
   },
   "authenticatorAppDescV2": {
-    "message": "Унесите кôд који генерише апликација за аутентификацију као што је Bitwarden Authenticator.",
-    "description": "'Bitwarden Authenticator' is a product name and should not be translated."
+    "message": "Унесите кôд који генерише апликација за аутентификацију као што је Password Manager Authenticator.",
+    "description": "'Password Manager Authenticator' is a product name and should not be translated."
   },
   "yubiKeyTitleV2": {
     "message": "Yubico OTP сигурносни кључ"
@@ -2153,7 +2153,7 @@
     "message": "Наставити на bitwarden.com?"
   },
   "twoStepContinueToBitwardenUrlDesc": {
-    "message": "Bitwarden Authenticator омогућава вам да чувате кључеве аутентификатора и генеришете ТОТП кодове за токове верификације у 2 корака. Сазнајте више на bitwarden.com."
+    "message": "Password Manager Authenticator омогућава вам да чувате кључеве аутентификатора и генеришете ТОТП кодове за токове верификације у 2 корака. Сазнајте више на bitwarden.com."
   },
   "twoStepAuthenticatorScanCodeV2": {
     "message": "Скенирајте КР кôд у наставку помоћу апликације за аутентификацију или унесите кључ."
