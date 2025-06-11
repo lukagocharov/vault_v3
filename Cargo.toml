@@ -2,7 +2,7 @@
 members = ["macros"]
 
 [package]
-name = "vaultwarden"
+name = "vault"
 version = "1.0.0"
 authors = ["Daniel García <dani-garcia@users.noreply.github.com>"]
 edition = "2021"

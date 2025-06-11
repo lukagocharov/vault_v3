@@ -1,4 +1,4 @@
-# Vaultwarden Container Building
+# Container Building
 
 To build and release new testing and stable releases of Vaultwarden we use `docker buildx bake`.<br>
 This can be used locally by running the command yourself, but it is also used by GitHub Actions.
