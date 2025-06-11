@@ -113,12 +113,6 @@ fn web_index_direct() -> Redirect {
 
 #[head("/")]
 fn web_index_head() -> EmptyResult {
-    // Add an explicit HEAD route to prevent uptime monitoring services from
-    // generating "No matching routes for HEAD /" error messages.
-    //
-    // Rocket automatically implements a HEAD route when there's a matching GET
-    // route, but relying on this behavior also means a spurious error gets
-    // logged due to <https://github.com/SergioBenitez/Rocket/issues/1098>.
     Ok(())
 }
 
@@ -134,16 +128,6 @@ fn app_id() -> Cached<(ContentType, Json<Value>)> {
                 {
                 "version": { "major": 1, "minor": 0 },
                 "ids": [
-                    // Per <https://fidoalliance.org/specs/fido-v2.0-id-20180227/fido-appid-and-facets-v2.0-id-20180227.html#determining-the-facetid-of-a-calling-application>:
-                    //
-                    // "In the Web case, the FacetID MUST be the Web Origin [RFC6454]
-                    // of the web page triggering the FIDO operation, written as
-                    // a URI with an empty path. Default ports are omitted and any
-                    // path component is ignored."
-                    //
-                    // This leaves it unclear as to whether the path must be empty,
-                    // or whether it can be non-empty and will be ignored. To be on
-                    // the safe side, use a proper web origin (with empty path).
                     &CONFIG.domain_origin(),
                     "ios:bundle-id:com.8bit.bitwarden",
                     "android:apk-key-hash:dUGFzUzf3lmHSLBDBIv+WaFyZMI" ]
@@ -180,8 +164,6 @@ fn alive(_conn: DbConn) -> Json<String> {
 
 #[head("/alive")]
 fn alive_head(_conn: DbConn) -> EmptyResult {
-    // Avoid logging spurious "No matching routes for HEAD /alive" errors
-    // due to <https://github.com/SergioBenitez/Rocket/issues/1098>.
     Ok(())
 }
 
