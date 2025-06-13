@@ -78,7 +78,7 @@ COPY ./Cargo.* ./rust-toolchain.toml ./build.rs ./
 COPY ./macros ./macros
 
 ARG CARGO_PROFILE=release
-ARG DB=sqlite,mysql,postgresql
+ARG DB=sqlite,postgresql
 
 RUN source /env-cargo && \
     cargo build --features ${DB} --profile "${CARGO_PROFILE}" --target="${CARGO_TARGET}" && \
@@ -123,7 +123,7 @@ WORKDIR /
 
 COPY docker/healthcheck.sh docker/start.sh /
 COPY --from=web_assets /web-vault ./web-vault
-COPY --from=build /app/target/final/vault_v3 .
+COPY --from=build /app/target/final/vault .
 
 HEALTHCHECK --interval=60s --timeout=10s CMD ["/healthcheck.sh"]
 
